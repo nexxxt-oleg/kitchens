@@ -1,0 +1,210 @@
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 991px) {
+  .ns__questionnaire__form {
+    padding: 40px;
+  }
+  .ns__list-video {
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hidden-mob {
+    display: none;
+  }
+  .ns__questionnaire__form {
+    padding: 20px;
+    border-radius: 25px;
+    &__title {
+      font-size: 18px;
+      margin-bottom: 25px;
+      line-height: 24px;
+    }
+  }
+  .ns__questionnaire__form__group__header span {
+    font-size: 16px;
+  }
+  .ns__header__right li:not(:last-child) {
+    padding-right: 0;
+  }
+  .ns__header__wrap {
+    padding: 15px 0;
+    .btn--ico {
+      background: #fff !important;
+      min-width: 40px;
+      width: 40px;
+      height: 20px;
+      border-radius: 0;
+      svg {
+        width: 18px;
+        height: 20px;
+      }
+    }
+  }
+  .ns__questionnaire__form__item__caption {
+    font-size: 14px;
+    br {
+      display: none;
+    }
+  }
+  .ns__questionnaire__form__item {
+    padding-bottom: 20px;
+  }
+  .ns__header__logo {
+    img {
+      width: 170px;
+      height: auto;
+    }
+  }
+  .ns__header {
+    margin-bottom: 25px;
+  }
+  .ns__body h1 {
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+  .ns__questionnaire__desc {
+    padding-left: 0;
+    h3 {
+      padding-left: 60px;
+      padding-bottom: 10px;
+      margin: 0;
+      font-size: 16px;
+      line-height: 20px;
+      min-height: 50px;
+    }
+    &__ico {
+      width: 40px;
+      height: 40px;
+      left: 0;
+    }
+  }
+  .ns__questionnaire__desc p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 12px;
+  }
+  .ns__questionnaire__desc ul li {
+    font-size: 14px;
+    line-height: 20px;
+    &::after {
+      top: 10px;
+    }
+  }
+  .fpad30 {
+    padding-bottom: 20px;
+  }
+  .ns__questionnaire__photo-mob {
+    display: block;
+    padding: 20px 0;
+  }
+  .ns__questionnaire__form__radio__value {
+    padding-right: 20px;
+  }
+  .ns__questionnaire__form__submit {
+    padding-top: 0;
+    padding-bottom: 10px;
+  }
+  .ns__questionnaire__form__group {
+    padding-bottom: 10px;
+  }
+  .ns__questionnaire__form__submit .btn {
+    width: 240px;
+  }
+  .ns__footer {
+    border-radius: 25px;
+    padding: 40px 0 30px;
+  }
+  .nav--soc {
+    padding-bottom: 26px;
+    .nav__item {
+      width: 40px;
+      min-width: 40px;
+      height: 40px;
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+  .ns__footer__copy {
+    padding-bottom: 20px;
+  }
+  .ns__footer__nav {
+    padding-bottom: 10px;
+  }
+  .ns__footer__bottom a {
+    width: 40px;
+    height: 40px;
+    img {
+      width: 18px;
+      height: 20px;
+    }
+  }
+  .ns__questionnaire__form__cost {
+    font-size: 24px;
+  }
+  .ns__body {
+    padding-bottom: 40px;
+  }
+  .ns__questionnaire__form__ps {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .ns__header__mob-toggle {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+  }
+  .ns__cabinet-box {
+    padding: 30px 20px;
+    h2 {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    p {
+      font-size: 16px;
+    }
+    &__footer {
+      padding-top: 20px;
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+  .hello-ico {
+    width: 24px;
+    height: 30px;
+  }
+  .ns__alert-text p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  .ns__card-auth {
+    padding: 30px 20px;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .ns__list-video {
+    max-width: 400px;
+    width: 100%;
+  }
+  .ns__card-auth__title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .ns__card-auth {
+    padding: 20px 15px;
+  }
+}

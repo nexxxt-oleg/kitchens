@@ -1,0 +1,13 @@
+{
+  "name": "24ns",
+  "description": "Front html for 24ns",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Oleg",
+      "email": "nexxxt.07@gmail.com"
+    }
+  ],
+  "require": {}
+}
+
