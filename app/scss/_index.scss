@@ -2,6 +2,7 @@ body {
   font-family: "Geologica", sans-serif;
   font-size: 16px;
   background: #fff;
+  color: #000;
 }
 
 .kitchens {
@@ -157,5 +158,68 @@ body {
   padding-bottom: 200px;
   &__header {
     height: 210px;
+    padding-top: 35px;
+    &__caption {
+      font-size: 48px;
+      line-height: 1;
+      padding-bottom: 15px;
+      &--n1 {
+        padding-left: 330px;
+      }
+      &--n2 {
+        padding-left: 140px;
+        font-weight: 200;
+      }
+      &--n3 {
+        padding-left: 475px;
+      }
+    }
+  }
+
+  &__desc {
+    padding-top: 125px;
+    p {
+      font-size: 18px;
+      line-height: 30px;
+      font-weight: 200;
+    }
+  }
+}
+.home-video2 {
+  position: relative;
+  height: 540px;
+}
+
+.home-content2 {
+  padding-top: 60px;
+  text-align: center;
+  padding-bottom: 110px;
+  h2 {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+  }
+  p {
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+    b {
+      font-weight: 400;
+    }
+  }
+}
+.z-30 {
+  z-index: 30;
+}
+.silver-box {
+  background: #f6f6f6;
+}
+.home-slider {
+  padding-bottom: 45px;
+  .swiper {
+    overflow: visible;
   }
 }
