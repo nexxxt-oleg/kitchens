@@ -20,8 +20,8 @@
 </head>
 <body>
 <div class="kitchens">
-    <header class="kitchens__header">
-        <div class="container">
+    <header class="kitchens__header" id="header">
+        <div class="container kitchens__header__wrap">
             <ul class="nav kitchens__header__nav">
                 <li><a href="" class="animate-latter" data-text="кухни"><span>к</span><span>у</span><span>х</span><span>н</span><span>и</span></a></li>
                 <li><a href="" class="animate-latter" data-text="гардеробные"><span>г</span><span>а</span><span>р</span><span>д</span><span>е</span><span>р</span><span>о</span><span>б</span><span>н</span><span>ы</span><span>е</span></a></li>
@@ -31,6 +31,83 @@
                 <li><a href="" class="animate-latter" data-text="в наличии"><span>в</span><span>&nbsp;</span><span>н</span><span>а</span><span>л</span><span>и</span><span>ч</span><span>и</span><span>и</span></a></li>
                 <li><a href="" class="animate-latter" data-text="шоу-рум"><span>ш</span><span>о</span><span>у</span><span>-</span><span>р</span><span>у</span><span>м</span></a></li>
             </ul>
+        </div>
+
+        <div class="kitchens__header__mob">
+            <div class="container">
+                <div class="kitchens__header__mob__wrap d-flex align-content-center">
+                    <a href="/" class="kitchens__header__mob__logo">
+                        <svg class="d-block" width="120" height="45">
+                            <use xlink:href="#svg-logo"></use>
+                        </svg>
+                    </a>
+                    <div class="ms-auto">
+                        <div class="d-flex">
+                            <a href="tel:+79262112508" class="kitchens__header__mob__tel">
+                                <svg class="d-block" width="24" height="24">
+                                    <use xlink:href="#svg-tel"></use>
+                                </svg>
+                            </a>
+
+                            <a href="#collapseMenu" class="kitchens__header__mob__toggle collapsed" data-bs-toggle="collapse" data-bs-target="#collapseMenu" >
+                                <svg class="d-block" width="32" height="20">
+                                    <use xlink:href="#svg-menu-open"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kitchens__header__mob__menu mob-menu">
+                <div class="accordion-collapse collapse" id="collapseMenu">
+                    <div class="mob-menu__wrap">
+                        <div class="container">
+                            <div class="mob-menu__header">
+                                <a href="/" class="mob-menu__header__logo">
+                                    <svg class="d-block" width="120" height="45">
+                                        <use xlink:href="#svg-logo"></use>
+                                    </svg>
+                                </a>
+                                <a href="#collapseMenu" class="mob-menu__header__toggle" data-bs-toggle="collapse" data-bs-target="#collapseMenu" >
+                                    <svg class="d-block" width="20" height="20">
+                                        <use xlink:href="#svg-close"></use>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="mob-menu__body">
+                                <ul class="nav flex-column mob-menu__list">
+                                    <li><a href="">кухни</a></li>
+                                    <li><a href="">гардеробные</a></li>
+                                    <li><a href="">диваны</a></li>
+                                    <li><a href="">мебель</a></li>
+                                    <li><a href="">картины</a></li>
+                                    <li><a href="">в наличии</a></li>
+                                    <li><a href="">шоу-рум</a></li>
+                                </ul>
+
+                                <ul class="nav flex-column footer__contacts">
+                                    <li><a href="tel:+79262112508" class="footer__phone">+7 926 211-25-08</a></li>
+                                    <li><a href="mailto:info@kitchens.moscow" class="footer__email">info@kitchens.moscow</a></li>
+                                    <li>
+                                        <b>ул. Смоленская, 10</b>
+                                        Пн. - Сб.: 10:00 - 20:00<br>
+                                        Вс.: 11:00 - 18:00
+                                    </li>
+                                </ul>
+
+                                <ul class="nav footer__soc">
+                                    <li><a href="" target="_blank" class="animate-latter" data-text="VK"><span>V</span><span>K</span></a></li>
+                                    <li><a href="" target="_blank" class="animate-latter" data-text="TELEGRAM"><span>T</span><span>E</span><span>L</span><span>E</span><span>G</span><span>R</span><span>A</span><span>M</span></a></li>
+                                    <li><a href="" target="_blank" class="animate-latter" data-text="YOUTUBE"><span>Y</span><span>O</span><span>U</span><span>T</span><span>U</span><span>B</span><span>E</span></a></li>
+                                    <li><a href="" target="_blank" class="animate-latter" data-text="PINTEREST"><span>P</span><span>I</span><span>N</span><span>T</span><span>E</span><span>R</span><span>E</span><span>S</span><span>T</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
