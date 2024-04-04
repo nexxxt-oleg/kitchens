@@ -296,6 +296,8 @@
   .fixed_menu.kitchens__header {
     position: fixed;
     background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(10px);
+
     z-index: 200;
     .kitchens__header__mob__logo,
     & .kitchens__header__mob__tel {
