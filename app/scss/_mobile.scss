@@ -1,5 +1,10 @@
 @media screen and (max-width: 1200px) {
-
+  .brand-box {
+    padding: 15px;
+    font-size: 22px;
+    line-height: 28px;
+    height: 240px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -106,6 +111,9 @@
 @media screen and (max-width: 768px) {
   .kitchens__header__mob__toggle:not(.collapsed) {
     opacity: 0;
+  }
+  .brand-box {
+    text-align: center;
   }
   .mob-menu {
     position: absolute;
@@ -312,6 +320,12 @@
   .ns__card-auth {
     padding: 30px 20px;
     border-radius: 30px;
+  }
+  .brand-box {
+    height: auto;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   .brands__list__item {
     width: 50%;
