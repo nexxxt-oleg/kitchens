@@ -5,12 +5,29 @@
     line-height: 28px;
     height: 240px;
   }
+  .kitchens__header__nav li {
+    padding: 0 10px;
+  }
+  .fixed_menu.kitchens__header .kitchens__header__fix-right a {
+    font-size: 10px;
+    &.tel {
+      font-size: 13px;
+    }
+  }
 }
 
 @media screen and (max-width: 991px) {
   .home-video1__logo {
     width: 120px;
     min-width: 120px;
+  }
+  .fixed_menu.kitchens__header {
+    .kitchens__header__mob__logo,
+    & .kitchens__header__mob__tel {
+      opacity: 1;
+      visibility: visible;
+      color: #fff;
+    }
   }
   .home-video1__footer__center {
     padding-right: 50px;
@@ -106,15 +123,36 @@
   .brands__footer {
     padding-top: 50px;
   }
-}
+  .kitchens__header__mob__wrap {
 
-@media screen and (max-width: 768px) {
-  .kitchens__header__mob__toggle:not(.collapsed) {
-    opacity: 0;
   }
-  .brand-box {
-    text-align: center;
+  .kitchens__header {
+    padding-top: 12px;
+    height: 70px;
+    &__wrap {
+      display: none;
+    }
+    &__mob {
+      display: block;
+      &__logo {
+        opacity: 0;
+        visibility: hidden;
+      }
+      &__tel {
+        opacity: 0;
+        visibility: hidden;
+      }
+      &__wrap {
+
+        align-items: center;
+      }
+      &__toggle {
+        color: #fff;
+        margin-left: 25px;
+      }
+    }
   }
+
   .mob-menu {
     position: absolute;
     top: 0;
@@ -164,6 +202,16 @@
       }
     }
   }
+}
+
+@media screen and (max-width: 768px) {
+  .kitchens__header__mob__toggle:not(.collapsed) {
+    opacity: 0;
+  }
+  .brand-box {
+    text-align: center;
+  }
+
 
   .home-video2 {
     height: 260px;
@@ -174,31 +222,7 @@
   .footer__web__ico {
     padding-right: 0;
   }
-  .kitchens__header {
-    padding-top: 0;
-    &__wrap {
-      display: none;
-    }
-    &__mob {
-      display: block;
-      &__logo {
-        opacity: 0;
-        visibility: hidden;
-      }
-      &__tel {
-        opacity: 0;
-        visibility: hidden;
-      }
-      &__wrap {
-        height: 80px;
-        align-items: center;
-      }
-      &__toggle {
-        color: #fff;
-        margin-left: 25px;
-      }
-    }
-  }
+
   .home-video1__footer {
     position: relative;
     padding-bottom: 100px;
@@ -301,19 +325,7 @@
     padding-left: 50px;
     padding-right: 50px;
   }
-  .fixed_menu.kitchens__header {
-    position: fixed;
-    background: rgba(0,0,0,0.85);
-    backdrop-filter: blur(10px);
 
-    z-index: 200;
-    .kitchens__header__mob__logo,
-    & .kitchens__header__mob__tel {
-      opacity: 1;
-      visibility: visible;
-      color: #fff;
-    }
-  }
 }
 
 @media screen and (max-width: 574px) {
