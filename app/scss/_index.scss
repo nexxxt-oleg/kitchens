@@ -484,8 +484,13 @@ body {
 
   &__title {
     font-weight: 500;
+    transition: all 0.2s ease-in-out;
   }
-
+  &:hover {
+    .slider-product__item__title {
+      color: #6c6c6c;
+    }
+  }
 }
 .home-content__img-zoom {
   overflow: hidden;
@@ -718,7 +723,13 @@ body {
 }
 .kitchens__header__fix-right {
   display: none;
+  .animate-latter {
+    &::after {
+      bottom: 0;
+    }
+  }
 }
+
 
 .fixed_menu.kitchens__header {
   backdrop-filter: blur(10px);
