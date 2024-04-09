@@ -413,6 +413,11 @@ body {
   &.swiper-button-disabled {
     opacity: 0;
   }
+
+  &:hover {
+    background: #fff;
+    color: #000;
+  }
 }
 
 .slider-product__item {
